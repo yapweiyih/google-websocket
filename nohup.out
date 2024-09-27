@@ -1,0 +1,150 @@
+2024-09-26 15:45:08.336 | INFO     | __main__:<module>:184 - WebSocket server started on localhost:8765
+2024-09-26 15:45:43.934 | INFO     | __main__:handler:125 - **************************************************
+2024-09-26 15:45:43.934 | INFO     | __main__:handler:126 - Client connected from ::1
+2024-09-26 15:45:43.934 | INFO     | __main__:transcript_thread:32 - Starting stt thread
+2024-09-26 15:45:43.934 | INFO     | __main__:client_handler:30 - Sent 'connected' event
+2024-09-26 15:45:43.934 | INFO     | __main__:handler:136 - try catch..
+2024-09-26 15:45:43.935 | INFO     | __main__:create_requests:80 - Creating requests
+2024-09-26 15:45:44.007 | INFO     | __main__:handler:156 - IQ is connected
+2024-09-26 15:45:44.007 | INFO     | __main__:client_handler:34 - Received: Connected to server successfully.
+2024-09-26 15:45:44.008 | INFO     | __main__:client_handler:38 - Opening audio file...
+2024-09-26 15:45:44.008 | INFO     | __main__:client_handler:43 - Sent 'start' event
+2024-09-26 15:45:44.008 | INFO     | __main__:handler:159 - Processing 'start' event
+2024-09-26 15:45:44.009 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.115 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.153 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.153 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.153 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.217 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.218 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.323 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.324 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.442 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.443 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.549 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.553 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.659 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.661 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.763 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.765 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.870 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.871 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:44.975 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:44.976 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.081 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.082 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.182 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.184 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.288 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.289 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.311 | INFO     | __main__:transcript_thread:61 - Starting transcripting
+2024-09-26 15:45:45.311 | INFO     | __main__:transcript_thread:69 - Speech started.
+2024-09-26 15:45:45.331 | INFO     | __main__:handler:125 - **************************************************
+2024-09-26 15:45:45.331 | INFO     | __main__:handler:126 - Client connected from ::1
+2024-09-26 15:45:45.331 | INFO     | __main__:transcript_thread:32 - Starting stt thread
+2024-09-26 15:45:45.331 | INFO     | __main__:client_handler:30 - Sent 'connected' event
+2024-09-26 15:45:45.331 | INFO     | __main__:handler:136 - try catch..
+2024-09-26 15:45:45.332 | INFO     | __main__:create_requests:80 - Creating requests
+2024-09-26 15:45:45.332 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.335 | INFO     | __main__:handler:156 - IQ is connected
+2024-09-26 15:45:45.335 | INFO     | __main__:client_handler:34 - Received: Connected to server successfully.
+2024-09-26 15:45:45.335 | INFO     | __main__:client_handler:38 - Opening audio file...
+2024-09-26 15:45:45.336 | INFO     | __main__:client_handler:43 - Sent 'start' event
+2024-09-26 15:45:45.336 | INFO     | __main__:handler:159 - Processing 'start' event
+2024-09-26 15:45:45.337 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.337 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.348 | INFO     | __main__:transcript_thread:74 - Speech ended.
+2024-09-26 15:45:45.392 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.393 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.442 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.442 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.496 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.497 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.543 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.544 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.601 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.602 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.647 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.650 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.709 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.712 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.727 | INFO     | __main__:transcript_thread:69 - Speech started.
+2024-09-26 15:45:45.751 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.751 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.812 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.813 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.857 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.859 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.920 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.921 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:45.965 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:45.967 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.028 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.030 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.072 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.075 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.133 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.135 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.154 | INFO     | __main__:transcript_thread:76 - Transcript: hi
+2024-09-26 15:45:46.154 | INFO     | __main__:transcript_thread:74 - Speech ended.
+2024-09-26 15:45:46.178 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.180 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.240 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.242 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.288 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.290 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.348 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.351 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.382 | INFO     | __main__:transcript_thread:76 - Transcript:  hi
+2024-09-26 15:45:46.395 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.396 | INFO     | __main__:transcript_thread:61 - Starting transcripting
+2024-09-26 15:45:46.397 | INFO     | __main__:transcript_thread:69 - Speech started.
+2024-09-26 15:45:46.398 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.459 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.461 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.505 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.507 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.564 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.565 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.607 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.608 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.650 | INFO     | __main__:transcript_thread:74 - Speech ended.
+2024-09-26 15:45:46.665 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.666 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.713 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.714 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.771 | INFO     | __main__:client_handler:56 - Sent media chunk (8384 bytes)
+2024-09-26 15:45:46.772 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.820 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:46.821 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:46.900 | INFO     | __main__:transcript_thread:69 - Speech started.
+2024-09-26 15:45:46.921 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.007 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.023 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.024 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.090 | INFO     | __main__:transcript_thread:69 - Speech started.
+2024-09-26 15:45:47.125 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.126 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.230 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.231 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.335 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.336 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.446 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.447 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.551 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.553 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.662 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.664 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.767 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.769 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.871 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.873 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:47.981 | INFO     | __main__:client_handler:56 - Sent media chunk (20000 bytes)
+2024-09-26 15:45:47.982 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:48.086 | INFO     | __main__:client_handler:56 - Sent media chunk (8384 bytes)
+2024-09-26 15:45:48.087 | INFO     | __main__:create_requests:84 - Getting audio from queue
+2024-09-26 15:45:48.302 | INFO     | __main__:transcript_thread:76 - Transcript: I want to check account balance
+2024-09-26 15:45:48.488 | INFO     | __main__:create_requests:89 - Audio queue is empty
+2024-09-26 15:45:48.593 | INFO     | __main__:create_requests:89 - Audio queue is empty
+2024-09-26 15:45:48.788 | INFO     | __main__:transcript_thread:76 - Transcript:  the Bells
+2024-09-26 15:45:48.862 | INFO     | __main__:transcript_thread:76 - Transcript:  I went back on business
