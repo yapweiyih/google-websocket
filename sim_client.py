@@ -10,7 +10,7 @@ from loguru import logger
 SERVER_ADDRESS = "ws://localhost:8765"
 
 # Audio file path
-AUDIO_FILE = "../exp/audio/account_balance.wav"
+AUDIO_FILE = "audio/account_balance.wav"
 
 # Chunk size in bytes
 CHUNK_SIZE = 20000
