@@ -37,8 +37,8 @@ def transcript_thread(audio_queue):
             sample_rate_hertz=44100,
             audio_channel_count=1,
         ),
-        language_codes=["en-US"],
-        model="long",
+        language_codes=["auto"],
+        model="chirp_2",
     )
     # Sets the flag to enable voice activity events
     streaming_features = types.StreamingRecognitionFeatures(
@@ -54,19 +54,25 @@ def transcript_thread(audio_queue):
     )
 
     # Transcribes the audio into text
+    logger.info("Starting transcripting")
     responses_iterator = speech_client.streaming_recognize(
         requests=create_requests(config_request, audio_queue),
     )
     responses = []
-    logger.info("Starting transcripting")
-
     for response in responses_iterator:
         responses.append(response)
+        if (
+            response.speech_event_type
+            == types.StreamingRecognizeResponse.SpeechEventType.END_OF_SINGLE_UTTERANCE
+        ):
+            logger.info("END_OF_SINGLE_UTTERANCE")
+
         if (
             response.speech_event_type
             == types.StreamingRecognizeResponse.SpeechEventType.SPEECH_ACTIVITY_BEGIN
         ):
             logger.info("Speech started.")
+
         if (
             response.speech_event_type
             == types.StreamingRecognizeResponse.SpeechEventType.SPEECH_ACTIVITY_END
