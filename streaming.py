@@ -127,7 +127,7 @@ def detect_intent_stream(agent, session_id, audio_file_path, language_code):
 
 
 if __name__ == "__main__":
-    audio_file_path = "exp/audio/account_balance.wav"
+    audio_file_path = "audio/account_balance.wav"
     language_code = LANGUAGE
     project_id = PROJECT_ID
     location_id = LOCATION
