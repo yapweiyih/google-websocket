@@ -18,9 +18,10 @@ class EventEmitter:
     async def wait_for_next(self, event_name):
         future = asyncio.Future()
 
-        def handler(event):
+        def handler(arg):
             if not future.done():
-                future.set_result(event)
+                # The result is whatever that is passed as arg to the handler
+                future.set_result(arg)
 
         self.on(event_name, handler)
         return await future
@@ -29,8 +30,13 @@ class EventEmitter:
 async def main():
     emitter = EventEmitter()
 
-    # Wait for the 'data' event
+    emitter.on("weiyih", lambda x: print("weiyih2"))
+    emitter.on("weiyih", lambda x: print("weiyih1"))
+    # When emitting "weiyih" event, both functions will be called.
+    emitter.emit("weiyih", "test")
+
     print('Waiting for "data" event...')
+    # The reason to assign a var is so that we can retrieve the value later.
     data_future = asyncio.create_task(emitter.wait_for_next("data"))
 
     # Wait for the 'error' event
@@ -41,7 +47,7 @@ async def main():
     await asyncio.sleep(1)
     emitter.emit("data", "Hello, World!")
     await asyncio.sleep(1)
-    emitter.emit("error", "Something went wrong!")
+    emitter.emit("error", "weiyih")
 
     # Get the results of the futures
     data = await data_future
